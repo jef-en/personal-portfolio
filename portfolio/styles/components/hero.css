@@ -10,13 +10,54 @@
   left: 0;
   right: 0;
   height: 100vh;
+  gap: 1.5rem;
 }
 
 .hero_content {
-  font-size: var(--size-1xl);
-  padding-top: 10rem;
+  font-size: 1.5rem;
   width: 20rem;
 }
+
+.dictionary_name {
+  font-family: "Inconsolata", monospace;
+  font-weight: 750;
+  font-style: italic;
+  font-size: 2.5rem;
+}
+
+.dictionary_type {
+  color: var(--clr-gray);
+  font-weight: 600;
+}
+
+.dictionary_pronunciation {
+  padding-top: 0.5rem;
+  color: var(--clr-gray);
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.dictionary_content {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* .example {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero_line {
+  border: 2px solid var(--clr-gray);
+}
+
+.dictionary_ex {
+  color: var(--clr-gray);
+  font-size: 1.3rem;
+} */
 
 /* extra small screens */
 /* @media (min-width: 475px) {} */
@@ -25,15 +66,7 @@
 /* @media (min-width: 640px) {} */
 
 /* medium screens */
-@media (min-width: 768px) {
-  .hero {
-    text-align: center;
-  }
-  .hero_content {
-    font-size: var(--size-1xl);
-    width: 40rem;
-  }
-}
+/* @media (min-width: 768px) {} */
 
 /* large screens */
 /* @media (min-width: 1024px) {} */
