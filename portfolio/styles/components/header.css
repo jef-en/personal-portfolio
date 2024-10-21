@@ -37,6 +37,10 @@
   margin-right: 3rem;
 }
 
+.hidden {
+  visibility: hidden; /* Keeps the space but hides the element */
+}
+
 /* extra small screens */
 /* @media (min-width: 475px) {} */
 

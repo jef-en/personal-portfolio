@@ -8,6 +8,17 @@
   margin-top: 2rem;
 }
 
+.dictionary_name {
+  font-family: "Inconsolata", monospace;
+  font-weight: 750;
+  font-style: italic;
+}
+
+.dictionary_type {
+  color: var(--clr-gray);
+  font-weight: 600;
+}
+
 /* extra small screens */
 @media (min-width: 475px) {
   .container {
