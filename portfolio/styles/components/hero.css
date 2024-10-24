@@ -5,12 +5,13 @@
   align-items: center;
   justify-content: center;
   font-family: "Karla", sans-serif;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   height: 100vh;
   gap: 1.5rem;
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; */
+  border: 1px solid red;
 }
 
 .hero_content {
@@ -42,22 +43,24 @@
   align-items: start;
   justify-content: center;
   gap: 0.5rem;
+  font-size: var(--size-large);
 }
 
-/* .example {
-  margin-top: 1rem;
+.example {
+  margin-top: 0.5rem;
   display: flex;
   gap: 1rem;
 }
 
 .hero_line {
-  border: 2px solid var(--clr-gray);
+  border: 1px solid var(--clr-gray);
+  border-radius: 5px;
 }
 
 .dictionary_ex {
   color: var(--clr-gray);
-  font-size: 1.3rem;
-} */
+  font-size: var(--size-large);
+}
 
 /* extra small screens */
 /* @media (min-width: 475px) {} */
