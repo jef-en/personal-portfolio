@@ -6,6 +6,7 @@
   padding-bottom: 2rem;
   position: relative;
   z-index: 9999;
+  height: 10rem;
 }
 
 .header_title {
@@ -17,7 +18,7 @@
 
 .header_link {
   text-decoration: none;
-  color: var(--clr-dark);
+  color: var(--clr-light);
   transition: color 0.3s;
 }
 
@@ -30,7 +31,7 @@
 }
 
 .header_bars {
-  color: var(--clr-dark);
+  color: var(--clr-light);
   width: var(--size-large);
   height: var(--size-large);
   display: block;
@@ -71,7 +72,6 @@
 
   .header_link {
     text-decoration: none;
-    color: var(--clr-dark);
     transition: color 0.3s;
   }
 

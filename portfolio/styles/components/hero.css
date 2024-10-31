@@ -4,62 +4,39 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Karla", sans-serif;
-  height: 100vh;
-  gap: 1.5rem;
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  right: 0; */
-  border: 1px solid red;
+  height: calc(100dvh - 10rem);
 }
 
 .hero_content {
   font-size: 1.5rem;
   width: 20rem;
+  text-align: start;
 }
 
-.dictionary_name {
-  font-family: "Inconsolata", monospace;
+.hero_intro {
+  font-weight: 600;
+  font-size: var(--size-2xl);
+}
+
+.hero_description {
+  margin-top: 3rem;
+  font-size: var(--size-large);
+  color: var(--clr-dark-gray);
+}
+
+.hero_name {
   font-weight: 750;
   font-style: italic;
-  font-size: 2.5rem;
 }
 
-.dictionary_type {
+.hero_pronunciation {
   color: var(--clr-gray);
-  font-weight: 600;
 }
 
-.dictionary_pronunciation {
-  padding-top: 0.5rem;
-  color: var(--clr-gray);
-  font-size: 1.5rem;
-  padding-bottom: 1rem;
-}
-
-.dictionary_content {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  gap: 0.5rem;
+.hero_ending {
+  margin-top: 2rem;
   font-size: var(--size-large);
-}
-
-.example {
-  margin-top: 0.5rem;
-  display: flex;
-  gap: 1rem;
-}
-
-.hero_line {
-  border: 1px solid var(--clr-gray);
-  border-radius: 5px;
-}
-
-.dictionary_ex {
   color: var(--clr-gray);
-  font-size: var(--size-large);
 }
 
 /* extra small screens */
@@ -72,7 +49,12 @@
 /* @media (min-width: 768px) {} */
 
 /* large screens */
-/* @media (min-width: 1024px) {} */
+/* @media (min-width: 1024px) {
+  .hero_content {
+    font-size: 1.5rem;
+    width: 50rem;
+  }
+} */
 
 /* 2xl screens */
 /* @media (min-width: 1536px) {} */
