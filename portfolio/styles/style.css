@@ -24,6 +24,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.light-mode {
+  --clr-light: #191919;
+  --clr-dark: #f8fafc;
+  --clr-gray: #9ca3af;
+  --clr-dark-gray: #666666;
+}
+
 body {
   font-family: "Inconsolata", monospace;
   background-color: var(--clr-dark);

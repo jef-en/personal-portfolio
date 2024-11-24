@@ -26,6 +26,16 @@
   color: var(--clr-gray);
 }
 
+.header_toggle {
+  font-weight: 750;
+  color: var(--clr-light);
+  transition: color 0.3s;
+}
+
+.header_toggle:hover {
+  color: var(--clr-gray);
+}
+
 .header_menu {
   display: none;
 }
@@ -95,6 +105,10 @@
   }
 
   .header_link {
+    font-size: var(--size-large);
+  }
+
+  .header_toggle {
     font-size: var(--size-large);
   }
 }

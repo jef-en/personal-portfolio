@@ -49,10 +49,9 @@
 }
 
 .works_role {
-  font-weight: 500;
   margin-top: 1rem;
   margin-bottom: 3rem;
-  font-size: var(--size-large);
+  font-size: var(--size-base);
   color: var(--clr-gray);
 }
 
