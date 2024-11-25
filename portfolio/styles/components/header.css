@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 8rem;
   padding-bottom: 2rem;
   position: relative;
   z-index: 9999;
@@ -20,6 +20,7 @@
   text-decoration: none;
   color: var(--clr-dark);
   transition: color 0.3s;
+  font-size: var(--size-base);
 }
 
 .header_link:hover {
@@ -54,9 +55,6 @@
     padding-top: 8rem;
   }
   .header_title {
-    align-items: center;
-    list-style: none;
-    font-weight: 750;
     padding-left: 5rem;
   }
 
@@ -68,15 +66,6 @@
     font-weight: 750;
     padding: 0;
     padding-right: 5rem;
-  }
-
-  .header_link {
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-
-  .header_link:hover {
-    color: var(--clr-gray);
   }
 
   .header_bars {
@@ -95,10 +84,6 @@
   }
 
   .header_link {
-    font-size: var(--size-large);
-  }
-
-  .header_toggle {
     font-size: var(--size-large);
   }
 }
