@@ -1,5 +1,4 @@
 .hero {
-  text-align: start;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,7 +76,23 @@
 /* @media (min-width: 768px) {} */
 
 /* large screens */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .hero_content {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .hero_intro {
+    font-size: var(--size-2xl);
+  }
+
+  .hero_description {
+    font-size: var(--size-1xl);
+  }
+
+  .hero_ending {
+    font-size: var(--size-extra-large);
+  }
+}
 
 /* extra large screens */
 /* @media (min-width: 1280px) {} */

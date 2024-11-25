@@ -1,9 +1,8 @@
 :root {
   /* colors */
-  --clr-dark: #191919;
-  --clr-light: #f8fafc;
-  --clr-gray: #9ca3af;
-  --clr-dark-gray: #666666;
+  --clr-dark: #000000;
+  --clr-light: #ffffff;
+  --clr-gray: #666666;
 
   /* sizes */
   --size-extra-small: 0.75rem;
@@ -24,17 +23,10 @@ html {
   scroll-behavior: smooth;
 }
 
-.light-mode {
-  --clr-light: #191919;
-  --clr-dark: #f8fafc;
-  --clr-gray: #9ca3af;
-  --clr-dark-gray: #666666;
-}
-
 body {
   font-family: "Inconsolata", monospace;
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
 }
 
 img,

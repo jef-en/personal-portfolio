@@ -18,21 +18,11 @@
 
 .header_link {
   text-decoration: none;
-  color: var(--clr-light);
+  color: var(--clr-dark);
   transition: color 0.3s;
 }
 
 .header_link:hover {
-  color: var(--clr-gray);
-}
-
-.header_toggle {
-  font-weight: 750;
-  color: var(--clr-light);
-  transition: color 0.3s;
-}
-
-.header_toggle:hover {
   color: var(--clr-gray);
 }
 
@@ -41,7 +31,7 @@
 }
 
 .header_bars {
-  color: var(--clr-light);
+  color: var(--clr-dark);
   width: var(--size-large);
   height: var(--size-large);
   display: block;

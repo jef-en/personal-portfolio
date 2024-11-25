@@ -5,7 +5,7 @@
   z-index: 999;
   width: 100%;
   height: 100%;
-  background-color: var(--clr-dark);
+  background-color: var(--clr-light);
   display: none;
   justify-content: center;
   align-items: center;
@@ -24,21 +24,11 @@
 
 .mobile_link {
   text-decoration: none;
-  color: var(--clr-light);
+  color: var(--clr-dark);
   transition: color 0.3s;
   font-weight: 750;
 }
 
 .mobile_link:hover {
-  color: var(--clr-gray);
-}
-
-.mobile_toggle {
-  font-weight: 750;
-  color: var(--clr-light);
-  transition: color 0.3s;
-}
-
-.mobile_toggle:hover {
   color: var(--clr-gray);
 }
