@@ -2,6 +2,7 @@ const mobileNav = () => {
   const headerBars = document.querySelector(".header_bars");
   const mobileNav = document.querySelector(".mobile_nav");
   const headerTitle = document.querySelector(".header_title");
+  const mobileLinks = document.querySelectorAll(".mobile_link");
   let isMobileNavOpen = false;
 
   headerBars.addEventListener("click", () => {
@@ -15,6 +16,14 @@ const mobileNav = () => {
       document.body.style.overflowY = "auto";
       headerTitle.classList.remove("hidden");
     }
+  });
+  mobileLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      isMobileNavOpen = false;
+      mobileNav.style.display = "none";
+      document.body.style.overflowY = "auto";
+      headerTitle.classList.remove("hidden");
+    });
   });
 };
 
