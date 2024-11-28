@@ -16,7 +16,7 @@
 }
 
 .works_img:hover {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
 .image_container:hover {
@@ -48,8 +48,14 @@
   font-family: "Karla", serif;
 }
 
+.works_sub-title {
+  font-family: "Karla", serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: var(--size-base);
+}
+
 .works_desc {
-  margin-top: 1rem;
+  margin-top: 1.3rem;
   font-size: var(--size-base);
   color: var(--clr-gray);
 }
@@ -59,7 +65,7 @@
   margin-bottom: 3rem;
   font-size: var(--size-base);
   color: var(--clr-dark);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .works_role > ul {
