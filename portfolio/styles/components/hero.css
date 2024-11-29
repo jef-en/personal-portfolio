@@ -4,10 +4,6 @@
   align-items: center;
   justify-content: center;
   height: calc(100dvh - 10rem);
-  /* background-image: url("/sketch.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; */
 }
 
 .hero_content {
