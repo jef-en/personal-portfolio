@@ -1,11 +1,11 @@
 .works_container {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 3rem;
+  grid-gap: 2rem;
+  padding-top: 2rem;
 }
 
 .works_img {
@@ -18,30 +18,35 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
+.image_container {
+  cursor: pointer;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  transition: transform 0.4s ease-in-out;
+}
+
 .image_container:hover {
   transform: scale(1.05);
   transition: transform 0.6 s ease-in-out;
 }
 
-.image_container {
-  cursor: pointer;
-  padding: 1.5rem;
-  transition: transform 0.4s ease-in-out;
-}
-
 .image {
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .works-desc_container {
   margin: auto;
   width: 100%;
+  padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-bottom: 2.5rem;
+  /* border: 1px solid red; */
 }
 
 .works_title {
-  margin-top: 1rem;
   font-weight: 600;
   font-size: 1.5rem;
   font-family: "Karla", serif;
@@ -54,14 +59,13 @@
 }
 
 .works_desc {
-  margin-top: 1.3rem;
+  margin-top: 1rem;
   font-size: var(--size-base);
   color: var(--clr-gray);
 }
 
 .works_role {
   margin-top: 1rem;
-  margin-bottom: 3rem;
   font-size: var(--size-base);
   color: var(--clr-dark);
   font-weight: 500;
@@ -91,15 +95,27 @@
 /* small screens */
 @media (min-width: 640px) {
   .works_container {
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 
 /* medium screens */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .works_container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
 
 /* large screens */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .works_container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
 
 /* extra large screens */
 /* @media (min-width: 1280px) {} */

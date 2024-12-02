@@ -12,25 +12,15 @@
   padding-right: 5rem;
 }
 
-.hero_intro {
-  font-weight: 600;
-  font-size: var(--size-2xl);
-}
-
 .hero_description {
-  font-size: var(--size-large);
-  color: var(--clr-dark-gray);
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: "Karla";
 }
 
 .hero_pronunciation {
   color: var(--clr-gray);
   font-family: "Inconsolata", monospace;
-}
-
-.hero_ending {
-  margin-top: 2rem;
-  font-size: var(--size-large);
-  color: var(--clr-gray);
 }
 
 /* <--- Start of Animation ---> */
@@ -61,7 +51,15 @@
 /* @media (min-width: 640px) {} */
 
 /* medium screens */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .hero_content {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .hero_description {
+    font-size: 2rem;
+  }
+}
 
 /* large screens */
 @media (min-width: 1024px) {
@@ -69,21 +67,29 @@
     padding-left: 15rem;
     padding-right: 15rem;
   }
-  .line {
-    width: 2rem;
-    height: 450px;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
-  }
   .hero_description {
-    color: rgba(0, 0, 0, 0.4);
-    font-size: 4rem;
-    font-family: "Karla";
+    font-size: 2rem;
   }
 }
 
 /* extra large screens */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+  .hero_content {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .hero_description {
+    font-size: 3rem;
+  }
+}
 
 /* 2xl screens */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+  .hero_content {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .hero_description {
+    font-size: 4rem;
+  }
+}

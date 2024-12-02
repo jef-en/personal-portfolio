@@ -1,10 +1,24 @@
-.about {
-  align-items: center;
-  height: calc(100dvh - 10rem);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.about_container {
+  padding-top: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 7rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 4rem;
+}
+
+/* .about_title {
+  margin-bottom: 3rem;
+  font-size: var(--size-1xl);
+  font-weight: 600;
+  font-family: "Karla";
+} */
+
+.about_description {
+  margin-top: 1.5rem;
+  font-size: var(--size-base);
+  color: var(--clr-gray);
 }
 
 .about_emphasis {
@@ -13,69 +27,37 @@
   font-style: italic;
 }
 
+.about_profile {
+  border-radius: 10px;
+}
+
 /* <--- Media Queries ---> */
 
 /* extra small screens */
 /* @media (min-width: 475px) {} */
 
 /* small screens */
-/* @media (min-width: 640px) {} */
-
-/* medium screens */
-@media (min-width: 768px) {
-  .about_contaner {
-    grid-template-columns: 1fr;
+@media (min-width: 640px) {
+  .cert_container {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
 }
+
+/* medium screens */
+/* @media (min-width: 768px) {} */
 
 /* large screens */
 /* @media (min-width: 1024px) {} */
 
 /* extra large screens */
-@media (min-width: 1280px) {
-  .about_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-  }
-
-  .content {
-    margin-left: 10rem;
-  }
-
-  .about_title {
-    margin-bottom: 4rem;
-    font-size: var(--size-1xl);
-    font-weight: 600;
-    font-family: "Karla";
-  }
-
-  .about_description {
-    margin-top: 1.5rem;
-    font-size: var(--size-large);
-    color: var(--clr-gray);
-  }
-
-  .about-img_container {
-    border-radius: 15px;
-    margin-right: 10rem;
-    background-image: url("/try.avif");
-    background-position: center;
-    background-size: cover;
-    transition: all ease-in 0.3s;
-  }
-
-  .about-img_container:hover {
-    transform: translateY(-10px);
-  }
-}
+/* @media (min-width: 1280px) {} */
 
 /* 2xl screens */
 /* @media (min-width: 1536px) {} */
 
 /* Animation */
 
-.content p {
+/* .content p {
   opacity: 0;
   transform: translateY(50px);
   animation: slideUp 1s ease-out forwards;
@@ -102,21 +84,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.about-img_container {
-  opacity: 0;
-  transform: translateY(-50px);
-  animation: slideDown 1s ease-out forwards;
-}
-
-.about-img_container {
-  animation-delay: 0.6s;
-}
-
-@keyframes slideDown {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+} */
