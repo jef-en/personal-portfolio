@@ -1,19 +1,37 @@
+.about {
+  height: auto;
+}
+
 .about_container {
+  margin-top: 5rem;
   padding-top: 2rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 4rem;
+  grid-gap: 5rem;
 }
 
-/* .about_title {
-  margin-bottom: 3rem;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.about_title {
+  font-family: "Karla";
   font-size: var(--size-1xl);
   font-weight: 600;
-  font-family: "Karla";
-} */
+  margin-bottom: 1.5rem;
+}
+
+.about-img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .about_description {
   margin-top: 1.5rem;
@@ -24,11 +42,6 @@
 .about_emphasis {
   color: var(--clr-dark);
   font-weight: 600;
-  font-style: italic;
-}
-
-.about_profile {
-  border-radius: 10px;
 }
 
 /* <--- Media Queries ---> */
@@ -41,19 +54,53 @@
   .cert_container {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
+  .about_container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 }
 
 /* medium screens */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .about_container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
 
 /* large screens */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .about_container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
 
 /* extra large screens */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+  .about {
+    height: calc(100dvh - 10rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_container {
+    margin-top: 0;
+  }
+}
 
 /* 2xl screens */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+  .about {
+    height: calc(100dvh - 10rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_description {
+    font-size: var(--size-large);
+  }
+}
 
 /* Animation */
 
