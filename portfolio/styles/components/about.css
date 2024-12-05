@@ -98,7 +98,7 @@
     justify-content: center;
   }
   .about_description {
-    font-size: var(--size-large);
+    font-size: var(--size-base);
   }
 }
 
