@@ -1,9 +1,9 @@
-.pawhub_pages {
+.travel {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-.pawhub_title {
+.travel_title {
   padding-top: 5rem;
   padding-bottom: 1rem;
   font-size: var(--size-1xl);
@@ -11,7 +11,7 @@
   font-family: "Karla";
 }
 
-.pawhub_sub {
+.travel_sub {
   padding-top: 2rem;
   padding-bottom: 0.5rem;
   font-size: var(--size-large);
@@ -19,15 +19,15 @@
   font-family: "Karla";
 }
 
-.pawhub_desc {
+.travel_desc {
   font-size: var(--size-base);
   color: var(--clr-gray);
 }
 
-.pawhub-details_container > div > ul > li {
+.travel-details_container > div > ul > li {
   list-style: none;
 }
-.pawhub-details_container > div > ul {
+.travel-details_container > div > ul {
   padding: 0;
 }
 
@@ -36,7 +36,7 @@
 
 /* small screens */
 @media (min-width: 640px) {
-  .pawhub_pages {
+  .travel {
     padding-left: 3rem;
     padding-right: 3rem;
   }
@@ -44,7 +44,7 @@
 
 /* medium screens */
 @media (min-width: 768px) {
-  .pawhub_pages {
+  .travel {
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -52,12 +52,12 @@
 
 /* large screens */
 @media (min-width: 1024px) {
-  .pawhub_pages {
+  .travel {
     padding-left: 10rem;
     padding-right: 10rem;
   }
 
-  .pawhub-details_container {
+  .travel-details_container {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
