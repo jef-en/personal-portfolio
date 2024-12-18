@@ -93,3 +93,48 @@
     font-size: 4rem;
   }
 }
+
+/* Grid setup */
+.grid {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  grid-template-rows: 1fr 1fr; /* 2 rows */
+  width: 100%; /* Adjust based on container size */
+  height: 700px; /* Adjust grid height */
+}
+
+.box1 {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: lightgray;
+}
+
+/* Nested grid to split second row in first column */
+.nested-grid {
+  grid-column: 1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Split into two equal vertical sections */
+  gap: 0.5rem;
+  height: 100%;
+  width: 40rem;
+}
+
+/* Box 2 and Box 3 inside the nested grid */
+.box2,
+.box3 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* Box 4: occupies the entire right column */
+.box4 {
+  grid-column: 2;
+  grid-row: span 2;
+  background-color: lightcoral;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
