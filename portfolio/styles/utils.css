@@ -8,6 +8,28 @@
   margin-top: 2rem;
 }
 
+.back_to_top {
+  font-size: var(--size-large);
+  font-weight: 600;
+  font-family: "Karla";
+  margin-top: 5rem;
+  text-align: end;
+}
+
+.back_to_top:hover .arrow_up {
+  transform: translateY(-5px);
+}
+
+.back_to_top a {
+  text-decoration: none;
+  color: var(--clr-dark);
+}
+
+.arrow_up {
+  padding-left: 0.5rem;
+  transition: all ease-in-out 0.3s;
+}
+
 /* extra small screens */
 @media (min-width: 475px) {
   .container {

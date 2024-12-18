@@ -1,8 +1,8 @@
 :root {
   /* colors */
-  --clr-dark: #000000;
+  --clr-dark: #121212;
   --clr-light: #ffffff;
-  --clr-gray: #666666;
+  --clr-gray: #525252;
 
   /* sizes */
   --size-extra-small: 0.75rem;
