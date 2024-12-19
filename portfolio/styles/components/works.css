@@ -14,12 +14,8 @@
 
 .works_img {
   border-radius: 15px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   transition: all ease-in-out 0.4s;
-}
-
-.works_img:hover {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  background-color: #282828;
 }
 
 .image_container {
@@ -43,9 +39,9 @@
 .works-desc_container {
   margin: auto;
   width: 100%;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   padding-bottom: 2.5rem;
 }
 
@@ -82,13 +78,14 @@
 }
 
 .works_role > ul > li {
+  background-color: var(--clr-light);
   list-style: none;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  padding-top: 0.2rem;
+  padding-top: 0.5rem;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.5rem;
+  font-size: var(--size-base);
 }
 
 /* <--- Media Queries ---> */

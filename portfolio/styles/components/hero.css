@@ -1,19 +1,15 @@
 .hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   height: calc(100dvh - 10rem);
 }
 
 .hero_content {
   width: 100%;
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 .hero_description {
-  font-size: 2rem;
   color: rgba(0, 0, 0, 0.4);
   font-family: "Karla";
 }
@@ -51,37 +47,13 @@
 /* @media (min-width: 640px) {} */
 
 /* medium screens */
-@media (min-width: 768px) {
-  .hero_content {
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-  .hero_description {
-    font-size: 2rem;
-  }
-}
+/* @media (min-width: 768px) {} */
 
 /* large screens */
-@media (min-width: 1024px) {
-  .hero_content {
-    padding-left: 15rem;
-    padding-right: 15rem;
-  }
-  .hero_description {
-    font-size: 2rem;
-  }
-}
+/* @media (min-width: 1024px) {} */
 
 /* extra large screens */
-@media (min-width: 1280px) {
-  .hero_content {
-    padding-left: 15rem;
-    padding-right: 15rem;
-  }
-  .hero_description {
-    font-size: 3rem;
-  }
-}
+/* @media (min-width: 1280px) {} */
 
 /* 2xl screens */
 @media (min-width: 1536px) {
@@ -89,52 +61,8 @@
     padding-left: 15rem;
     padding-right: 15rem;
   }
+
   .hero_description {
-    font-size: 4rem;
+    font-size: 3rem;
   }
-}
-
-/* Grid setup */
-.grid {
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: 1fr 1fr; /* 2 columns */
-  grid-template-rows: 1fr 1fr; /* 2 rows */
-  width: 100%; /* Adjust based on container size */
-  height: 700px; /* Adjust grid height */
-}
-
-.box1 {
-  grid-column: 1;
-  grid-row: 1;
-  background-color: lightgray;
-}
-
-/* Nested grid to split second row in first column */
-.nested-grid {
-  grid-column: 1;
-  grid-row: 2;
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Split into two equal vertical sections */
-  gap: 0.5rem;
-  height: 100%;
-  width: 40rem;
-}
-
-/* Box 2 and Box 3 inside the nested grid */
-.box2,
-.box3 {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-/* Box 4: occupies the entire right column */
-.box4 {
-  grid-column: 2;
-  grid-row: span 2;
-  background-color: lightcoral;
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
 }
