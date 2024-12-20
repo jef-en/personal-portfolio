@@ -64,7 +64,6 @@
   margin-top: 1rem;
   font-size: var(--size-base);
   color: var(--clr-light);
-  font-weight: 500;
 }
 
 .works_role > ul {
@@ -81,7 +80,6 @@
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   padding-bottom: 0.5rem;
-  font-size: var(--size-base);
 }
 
 /* <--- Media Queries ---> */

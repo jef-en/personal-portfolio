@@ -32,7 +32,7 @@
 }
 
 .header_bars {
-  color: var(--clr-dark);
+  color: var(--clr-light);
   width: var(--size-large);
   height: var(--size-large);
   display: block;

@@ -24,8 +24,8 @@
   padding-right: 1.3rem;
   padding-bottom: 0.8rem;
   border-radius: 15px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   transition: all ease-in-out 0.4s;
+  background-color: var(--clr-d-gray);
 }
 
 .cert:hover {
@@ -35,6 +35,7 @@
 .cert_title {
   font-weight: 600;
   font-family: "Karla", serif;
+  color: var(--clr-light);
 }
 
 .cert_date {
@@ -43,7 +44,7 @@
 
 .cert_link {
   text-decoration: none;
-  color: var(--clr-dark);
+  color: var(--clr-light);
   display: flex;
   align-items: center;
   justify-content: space-between;
