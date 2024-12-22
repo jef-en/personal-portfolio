@@ -14,5 +14,7 @@ import "../styles/components/go-jeep.css";
 import "../styles/utils.css";
 
 import mobileNav from "./utils/mobile-nav";
+import reveal from "./utils/reveal";
 
 mobileNav();
+reveal();

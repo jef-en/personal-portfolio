@@ -12,7 +12,7 @@
   font-size: var(--size-large);
   font-weight: 600;
   font-family: "Karla";
-  margin-top: 5rem;
+  margin-top: 10rem;
   text-align: end;
 }
 
@@ -28,6 +28,18 @@
 .arrow_up {
   padding-left: 0.5rem;
   transition: all ease-in-out 0.3s;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
 /* extra small screens */

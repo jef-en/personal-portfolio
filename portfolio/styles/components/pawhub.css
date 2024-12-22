@@ -1,11 +1,45 @@
+.highlight {
+  background-color: #3e96ab;
+  color: black;
+  padding: 0.2em;
+  border-radius: 5px;
+}
+.pawhub_img {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.pawhub_hero {
+  height: calc(100dvh - 10rem);
+  background-image: url("/pawhub/hero_pawhub.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title_container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.box {
+  display: inline-block;
+  border-radius: 2px;
+  width: 1rem;
+  height: 2rem;
+  background-color: #3e96ab;
+  margin-right: 1rem;
+}
+
 .pawhub_pages {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
 .pawhub_title {
-  padding-top: 5rem;
-  padding-bottom: 1rem;
   font-size: var(--size-1xl);
   font-weight: 600;
   font-family: "Karla";
@@ -29,6 +63,10 @@
 }
 .pawhub-details_container > div > ul {
   padding: 0;
+}
+
+.pawhub_problem > li:first-child {
+  padding-top: 0.5rem;
 }
 
 /* extra small screens */
