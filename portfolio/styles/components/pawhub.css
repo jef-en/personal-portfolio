@@ -1,9 +1,9 @@
 .highlight {
-  background-color: #3e96ab;
-  color: black;
-  padding: 0.2em;
-  border-radius: 5px;
+  color: #d3a032;
+  font-weight: bold;
+  font-size: 1.05rem;
 }
+
 .pawhub_img {
   padding-top: 3rem;
   padding-bottom: 1rem;
@@ -11,10 +11,9 @@
 
 .pawhub_hero {
   height: calc(100dvh - 10rem);
-  background-image: url("/pawhub/hero_pawhub.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title_container {
@@ -27,8 +26,8 @@
 
 .box {
   display: inline-block;
-  border-radius: 2px;
-  width: 1rem;
+  border-radius: 1px;
+  width: 0.5rem;
   height: 2rem;
   background-color: #3e96ab;
   margin-right: 1rem;
@@ -56,6 +55,7 @@
 .pawhub_desc {
   font-size: var(--size-base);
   color: var(--clr-gray);
+  padding-left: 1rem;
 }
 
 .pawhub-details_container > div > ul > li {

@@ -15,6 +15,8 @@ import "../styles/utils.css";
 
 import mobileNav from "./utils/mobile-nav";
 import reveal from "./utils/reveal";
+import lazyLoading from "./utils/lazy-loading";
 
 mobileNav();
 reveal();
+lazyLoading();
