@@ -1,19 +1,3 @@
-// export default {
-//   base: "/",
-//   build: {
-//     rollupOptions: {
-//       input: {
-//         main: "./index.html",
-//         abel: "./public/pages/abel.html",
-//         about: "./public/pages/about-me.html",
-//         jeep: "./public/pages/go-jeep.html",
-//         pawhub: "./public/pages/pawhub.html",
-//         shift: "./public/pages/shift-travel.html",
-//       },
-//     },
-//   },
-// };
-
 import { resolve } from "path";
 import { defineConfig } from "vite";
 
