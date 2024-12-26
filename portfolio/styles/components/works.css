@@ -45,19 +45,19 @@
   font-weight: 600;
   font-size: 1.5rem;
   font-family: "Karla", serif;
-  margin-bottom: 0.02rem;
 }
 
 .works_sub-title {
   font-family: "Karla", serif;
   color: var(--clr-light);
   font-size: var(--size-base);
+  margin-bottom: 1rem;
 }
 
 .works_desc {
-  margin-top: 1rem;
   font-size: var(--size-base);
   color: var(--clr-gray);
+  margin-bottom: 1rem;
 }
 
 .works_role {

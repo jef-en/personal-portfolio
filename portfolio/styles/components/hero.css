@@ -5,23 +5,18 @@
   justify-content: center;
 }
 
-.hero_content {
-  padding-left: 30rem;
-  padding-right: 30rem;
-}
-
-.hero_desc {
-  font-size: 1.5rem;
-}
-
 .hero_name {
   font-size: 3rem;
   padding-bottom: 1rem;
 }
 
-.divider {
-  border: 0.5px solid white;
-  margin-bottom: 2rem;
+.hero_prnc {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.hero_desc {
+  font-size: 1.5rem;
 }
 
 /* extra small screens */
@@ -74,15 +69,15 @@
 
 /* extra large screens */
 @media (min-width: 1280px) {
-  .hero_content {
-    padding-left: 25rem;
-    padding-right: 25rem;
-  }
-
   .hero_desc {
     font-size: 1.5rem;
   }
 }
 
 /* 2xl screens */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+  .hero_content {
+    padding-left: 25rem;
+    padding-right: 25rem;
+  }
+}
