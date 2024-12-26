@@ -51,6 +51,23 @@
   transition: 0.7s ease-in-out;
 }
 
+.flex_container {
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.flex_container:last-child {
+  padding-bottom: 0;
+}
+
+.flex-c-1 {
+  flex: 1;
+}
+
+.flex-c-2 {
+  flex: 2;
+}
+
 /* extra small screens */
 @media (min-width: 475px) {
   .container {
