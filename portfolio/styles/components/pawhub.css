@@ -1,71 +1,105 @@
-.pawhub_pages {
-  padding-left: 10rem;
-  padding-right: 10rem;
+/* base */
+.pawhub_hero {
+  height: calc(100dvh - 10rem);
+  padding-top: 5rem;
+}
+
+.pawhub-hero_img {
+  background-image: url("/pawhub/pawhub-w.png");
+  height: 90%;
+  background-position: center;
+  background-size: contain;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-color: var(--clr-light);
 }
 
 .pawhub_title {
-  font-family: "Karla";
-  font-weight: 600;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
   font-size: var(--size-1xl);
-  padding-bottom: 3rem;
-  padding-top: 10rem;
+  font-weight: 600;
+  font-family: "Karla";
 }
 
 .pawhub_sub {
-  font-family: "Karla";
-  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
   font-size: var(--size-large);
+  font-weight: 600;
+  font-family: "Karla";
 }
 
 .pawhub_desc {
   font-size: var(--size-large);
   color: var(--clr-gray);
-}
-
-.text_container {
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
-
-.pawhub-details_container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.pawhub-details_container > div > .pawhub_sub {
-  padding-bottom: 0.5rem;
-}
-
-.pawhub-details_container > div > ul {
-  padding: 0;
-}
-
-.pawhub-details_container > div > ul > li {
   list-style: none;
 }
 
-.problem_container > ul {
+ul {
   padding: 0;
 }
 
-.problem_container > ul > li {
-  list-style: none;
-  background-color: #282828;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
+/* extra small screens */
+@media (min-width: 475px) {
+  .pawhub_pages {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
-.problem_container > ul > li:first-child {
-  margin-top: 1rem;
+/* small screens */
+@media (min-width: 640px) {
+  .pawhub_pages {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
-.problem_container > ul > li:last-child {
-  margin-bottom: 0;
+/* medium screens */
+@media (min-width: 768px) {
+  .pawhub_pages {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }
 
-.emphasis {
-  background-color: #282828;
-  border-radius: 1rem;
-  padding: 1.5rem;
+/* large screens */
+@media (min-width: 1024px) {
+  .pawhub_pages {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .pawhub-details_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+}
+
+/* extra large screens */
+@media (min-width: 1280px) {
+  .introduction {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+/* 2xl screens */
+@media (min-width: 1536px) {
+  .introduction {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
 }

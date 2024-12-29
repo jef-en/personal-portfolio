@@ -43,7 +43,7 @@
 }
 
 .copyright {
-  font-size: var(--size-base);
+  font-size: var(--size-large);
   color: var(--clr-gray);
 }
 
