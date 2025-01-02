@@ -1,8 +1,12 @@
 .hero {
   height: calc(100dvh - 10rem);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+
+.hero_content {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .hero_name {
@@ -11,24 +15,18 @@
 }
 
 .hero_prnc {
-  font-size: 1.5rem;
+  font-size: var(--size-base);
   padding-bottom: 1rem;
+  color: var(--clr-gray);
 }
 
 .hero_desc {
-  font-size: 1.5rem;
+  font-size: var(--size-base);
+  color: var(--clr-gray);
 }
 
 /* extra small screens */
 @media (min-width: 475px) {
-}
-.hero_content {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.hero_desc {
-  font-size: 1rem;
 }
 
 /* small screens */
@@ -37,10 +35,6 @@
     padding-left: 10rem;
     padding-right: 10rem;
   }
-
-  .hero_desc {
-    font-size: 1rem;
-  }
 }
 
 /* medium screens */
@@ -48,10 +42,6 @@
   .hero_content {
     padding-left: 10rem;
     padding-right: 10rem;
-  }
-
-  .hero_desc {
-    font-size: 1rem;
   }
 }
 
@@ -62,15 +52,23 @@
     padding-right: 20rem;
   }
 
+  .hero_prnc {
+    font-size: 1.1rem;
+  }
+
   .hero_desc {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
 /* extra large screens */
 @media (min-width: 1280px) {
+  .hero_prnc {
+    font-size: 1.3rem;
+  }
+
   .hero_desc {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -79,5 +77,13 @@
   .hero_content {
     padding-left: 25rem;
     padding-right: 25rem;
+  }
+
+  .hero_prnc {
+    font-size: 1.5rem;
+  }
+
+  .hero_desc {
+    font-size: 1.5rem;
   }
 }

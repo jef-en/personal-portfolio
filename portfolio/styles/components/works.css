@@ -51,13 +51,13 @@
   font-family: "Karla", serif;
   color: var(--clr-light);
   font-size: var(--size-base);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .works_desc {
   font-size: var(--size-base);
   color: var(--clr-gray);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .works_role {

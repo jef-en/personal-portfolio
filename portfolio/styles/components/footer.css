@@ -1,6 +1,6 @@
 .footer {
-  margin-top: 15rem;
-  margin-bottom: 7rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,7 +43,7 @@
 }
 
 .copyright {
-  font-size: var(--size-large);
+  font-size: var(--size-base);
   color: var(--clr-gray);
 }
 
