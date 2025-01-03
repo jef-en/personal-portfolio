@@ -1,0 +1,75 @@
+.paw {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.paw_title {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  font-size: var(--size-1xl);
+  font-weight: 600;
+  font-family: "Karla";
+}
+
+.paw_sub {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-size: var(--size-large);
+  font-weight: 600;
+  font-family: "Karla";
+}
+
+.paw_desc {
+  font-size: var(--size-base);
+  color: var(--clr-gray);
+}
+
+.paw-details_container > div > ul {
+  padding: 0;
+}
+
+.paw-details_container > div > ul > li {
+  list-style: none;
+}
+
+.paw_problem {
+  padding-top: 0.5rem;
+}
+
+/* extra small screens */
+/* @media (min-width: 475px) {} */
+
+/* small screens */
+@media (min-width: 640px) {
+  .paw {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* medium screens */
+@media (min-width: 768px) {
+  .paw {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+/* large screens */
+@media (min-width: 1024px) {
+  .paw {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .paw-details_container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* extra large screens */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl screens */
+/* @media (min-width: 1536px) {} */
