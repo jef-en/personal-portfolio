@@ -10,7 +10,7 @@
 }
 
 .header_title {
-  align-items: center;
+  align-items: start;
   list-style: none;
   font-weight: 750;
   padding-left: 3rem;
@@ -21,6 +21,7 @@
   color: var(--clr-light);
   transition: color 0.3s;
   font-size: var(--size-base);
+  font-weight: 750;
 }
 
 .header_link:hover {
