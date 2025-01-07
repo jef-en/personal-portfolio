@@ -78,6 +78,12 @@
   border: 1px solid rgb(61, 61, 61);
 }
 
+.caption {
+  padding-top: 1rem;
+  color: var(--clr-gray);
+  text-align: end;
+}
+
 .divider {
   padding-top: 2rem;
 }
