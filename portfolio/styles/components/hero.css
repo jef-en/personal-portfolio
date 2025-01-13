@@ -1,6 +1,8 @@
 .hero {
   height: calc(100dvh - 10rem);
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -10,7 +12,7 @@
 }
 
 .hero_name {
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding-bottom: 1rem;
 }
 
@@ -21,6 +23,7 @@
 }
 
 .hero_desc {
+  padding-top: 1rem;
   font-size: var(--size-base);
   color: var(--clr-gray);
 }
