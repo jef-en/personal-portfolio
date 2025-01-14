@@ -26,7 +26,7 @@
 .about-img_container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .about_description {
@@ -87,44 +87,10 @@
 
 /* 2xl screens */
 @media (min-width: 1536px) {
-  .about {
-    height: calc(100dvh - 10rem);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .about_profile {
+    width: 70%;
   }
-  .about_description {
-    font-size: var(--size-base);
+  .about_container {
+    grid-gap: 2rem;
   }
 }
-
-/* Animation */
-
-/* .content p {
-  opacity: 0;
-  transform: translateY(50px);
-  animation: slideUp 1s ease-out forwards;
-}
-
-.content p:nth-child(1) {
-  animation-delay: 0.3s;
-}
-.content p:nth-child(2) {
-  animation-delay: 0.6s;
-}
-.content p:nth-child(3) {
-  animation-delay: 0.9s;
-}
-.content p:nth-child(4) {
-  animation-delay: 1.2s;
-}
-.content p:nth-child(5) {
-  animation-delay: 1.5s;
-}
-
-@keyframes slideUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
