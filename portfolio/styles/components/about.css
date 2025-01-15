@@ -35,6 +35,17 @@
   color: var(--clr-gray);
 }
 
+.about_email {
+  margin-top: 2rem;
+  font-size: var(--size-base);
+  color: var(--clr-light);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  font-weight: 600;
+}
+
 .about_emphasis {
   color: var(--clr-light);
   font-weight: 600;
