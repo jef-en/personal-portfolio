@@ -13,8 +13,6 @@ import "../styles/components/shift-travel.css";
 import "../styles/components/go-jeep.css";
 import "../styles/utils.css";
 
-import mobileNav from "./utils/mobile-nav";
 import lazyLoading from "./utils/lazy-loading";
 
-mobileNav();
 lazyLoading();
