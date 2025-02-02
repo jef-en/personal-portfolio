@@ -21,25 +21,13 @@
   margin-top: 2rem;
 }
 
-.reveal {
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: all 0.5s ease;
-}
-
-.reveal.active {
-  transform: translateY(0px);
-  opacity: 1;
-}
-
 .loading {
-  filter: blur(40px) grayscale(100%);
+  filter: blur(10px) grayscale(100%);
 }
 
 .loaded {
   filter: blur(0) grayscale(0);
-  transition: 0.7s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 /* WORK SHOWCASE */
@@ -113,6 +101,15 @@
 .line {
   border: 1px solid #282828;
   width: 100%;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
 }
 
 /* extra small screens */
