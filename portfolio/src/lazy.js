@@ -14,7 +14,7 @@ import "../styles/components/go-jeep.css";
 import "../styles/utils.css";
 
 import lazyLoading from "./utils/lazy-loading";
-import scroll from "./utils/scroll";
+import revealAnim from "./utils/reveal";
 
 lazyLoading();
-scroll();
+revealAnim();

@@ -103,12 +103,15 @@
   width: 100%;
 }
 
-.hidden {
+.reveal {
+  position: relative;
+  transform: translateY(150px);
   opacity: 0;
-  transition: all 1s;
+  transition: all 2s ease;
 }
 
-.show {
+.reveal.active {
+  transform: translateY(0px);
   opacity: 1;
 }
 
