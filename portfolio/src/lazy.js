@@ -15,6 +15,8 @@ import "../styles/utils.css";
 
 import lazyLoading from "./utils/lazy-loading";
 import revealAnim from "./utils/reveal";
+import loadSlide from "./utils/load-slide";
 
 lazyLoading();
 revealAnim();
+loadSlide();
