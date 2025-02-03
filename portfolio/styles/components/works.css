@@ -82,6 +82,19 @@
   padding-bottom: 0.5rem;
 }
 
+/* Animation */
+
+.card_slide {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.card_slide.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* <--- Media Queries ---> */
 
 /* extra small screens */

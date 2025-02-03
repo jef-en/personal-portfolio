@@ -12,7 +12,7 @@
 }
 
 .hero_name {
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding-bottom: 1rem;
 }
 
@@ -55,7 +55,7 @@
   }
 
   .hero_prnc {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .hero_desc {
@@ -70,7 +70,7 @@
     padding-right: 20rem;
   }
   .hero_prnc {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   .hero_desc {
@@ -86,7 +86,7 @@
   }
 
   .hero_prnc {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   .hero_desc {
@@ -101,7 +101,7 @@
 .hero_desc {
   opacity: 0;
   transform: translateY(20px);
-  animation: moveUp 0.6s ease forwards;
+  animation: moveUp 0.5s ease forwards;
 }
 
 .hero_name {

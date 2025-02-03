@@ -12,9 +12,9 @@
 
 .container_works {
   width: 45rem;
-  padding-top: 10rem;
-  padding-left: 42px;
-  padding-right: 42px;
+  padding-top: 8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .section {
@@ -80,11 +80,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
-.work_header > a {
+.right_space {
   padding-right: 1rem;
+}
+.left_space {
+  padding-left: 1rem;
 }
 
 .back_to_top {
@@ -94,10 +97,6 @@
   padding-top: 2rem;
 }
 
-.back_to_top > a {
-  padding-left: 1rem;
-}
-
 .line {
   border: 1px solid #282828;
   width: 100%;
@@ -105,9 +104,9 @@
 
 .reveal {
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(20px);
   opacity: 0;
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
 }
 
 .reveal.active {
@@ -115,19 +114,20 @@
   opacity: 1;
 }
 
+/* Slide Up */
+
 .slide_up {
   opacity: 0;
-  transform: translateY(50px);
 }
 
 .slide_up_active {
-  animation: slideUp 0.8s ease-out forwards;
+  animation: slideUp 0.5s ease forwards;
 }
 
 @keyframes slideUp {
   from {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -136,7 +136,7 @@
 }
 
 .showcase_img.slide_up_active {
-  animation-delay: 0.8s;
+  animation-delay: 0.3s;
 }
 
 /* extra small screens */

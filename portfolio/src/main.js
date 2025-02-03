@@ -15,6 +15,10 @@ import "../styles/utils.css";
 
 import mobileNav from "./utils/mobile-nav";
 import lazyLoading from "./utils/lazy-loading";
+import cardSlide from "./utils/card-slide";
+import loadSlide from "./utils/load-slide";
 
 mobileNav();
 lazyLoading();
+cardSlide();
+loadSlide();
