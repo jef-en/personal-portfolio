@@ -12,7 +12,7 @@
 }
 
 .hero_name {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   padding-bottom: 1rem;
 }
 
@@ -20,12 +20,6 @@
   font-size: var(--size-base);
   padding-bottom: 1rem;
   color: var(--clr-gray);
-}
-
-.hero_line {
-  border: 0.01px solid white;
-  margin-bottom: 1rem;
-  width: 50%;
 }
 
 .hero_desc {
@@ -110,12 +104,6 @@
   animation: moveUp 0.5s ease forwards;
 }
 
-.hero_line {
-  opacity: 0;
-  transform: translateX(-150px);
-  animation: slideLeft 0.5s ease forwards;
-}
-
 .hero_name {
   animation-delay: 0.3s;
 }
@@ -128,20 +116,9 @@
   animation-delay: 0.9s;
 }
 
-.hero_line {
-  animation-delay: 1.3s;
-}
-
 @keyframes moveUp {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@keyframes slideLeft {
-  to {
-    opacity: 1;
-    transform: translateX(0);
   }
 }
