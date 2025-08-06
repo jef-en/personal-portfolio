@@ -23,6 +23,21 @@
   transition: transform 0.4s ease-in-out;
 }
 
+.smaller {
+  cursor: pointer;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  transition: transform 0.4s ease-in-out;
+  transform: scale(0.9);
+}
+
+.smaller:hover {
+  transform: scale(0.94);
+  transition: transform 0.6 s ease-in-out;
+}
+
 .image_container:hover {
   transform: scale(1.05);
   transition: transform 0.6 s ease-in-out;

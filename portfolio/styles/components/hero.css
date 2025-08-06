@@ -12,7 +12,7 @@
 }
 
 .hero_name {
-  font-size: 4.5rem;
+  font-size: 4rem;
   padding-bottom: 1rem;
 }
 
@@ -20,6 +20,7 @@
   font-size: var(--size-base);
   padding-bottom: 1rem;
   color: var(--clr-gray);
+  font-style: italic;
 }
 
 .hero_desc {
